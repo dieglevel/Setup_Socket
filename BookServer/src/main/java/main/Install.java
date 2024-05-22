@@ -8,7 +8,7 @@ import jakarta.persistence.Persistence;
 
 public class Install {
 	public static void main(String[] args) {
-		EntityManagerFactory emf =  Persistence.createEntityManagerFactory("");
+		EntityManagerFactory emf =  Persistence.createEntityManagerFactory("SQL_Server");
 		Exam_Dao ie = new Exam_Implement(emf);
 	}
 }

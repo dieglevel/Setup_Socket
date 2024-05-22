@@ -34,7 +34,7 @@ class ClientHandle implements Runnable {
 	public ClientHandle(Socket client) {
 		super();
 		this.socket = client;
-		this.example = new Exam_Implement(Persistence.createEntityManagerFactory(""));
+		this.example = new Exam_Implement(Persistence.createEntityManagerFactory("SQL_Server"));
 	}
 	
     @Override
